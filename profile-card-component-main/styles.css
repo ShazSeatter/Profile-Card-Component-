@@ -41,17 +41,21 @@ body {
   margin-bottom: 20px; 
 }
 
-.font {
-  font-size: 18px;
-  color: hsl(227, 10%, 46%); 
-}
-
-.name {
+.fnt-color-fw{
+  font-size: 18px; 
   color: hsl(229, 23%, 23%); 
 }
 
+.light-fnt-color {
+  color: hsl(0, 0%, 59%); 
+}
 .main-title {
   text-align: center;
+}
+
+.card-info-section {
+  position: relative; 
+  bottom: 50px;
 }
 
 .city-name {
